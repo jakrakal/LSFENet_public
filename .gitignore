@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs / weights / datasets
+runs/
+datasets/
+data/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.trt
+*.pkl
+
+# Logs
+*.log
+wandb/
+dul/
+
+# OS
+.DS_Store
+Thumbs.db
